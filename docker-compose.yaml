@@ -9,5 +9,6 @@ services:
     restart: always
 
 networks:
-  net_admin:
-    external: true
+  default:
+    external:
+      name: scoobydoo
